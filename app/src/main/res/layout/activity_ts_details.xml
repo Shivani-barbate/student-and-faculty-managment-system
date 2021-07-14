@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TsDetails">
+
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="158dp"
+        android:layout_height="131dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="68dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/apk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/studinfo"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="224dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="VIEW STUDENT INFORMATION"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/student"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="320dp"
+        android:background="#030C41"
+        android:text="VIEW"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/logout"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="468dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Log Out"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
